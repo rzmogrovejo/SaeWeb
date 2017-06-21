@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/06/2017, 05:55:53 PM
+    Author     : Pilar Chiong Maurici
+*/
+
+#sdg {
+    background: white;        
+}
+
+#sdg .contenedor {
+    text-align: center;
+}
+
+#sdg h2{
+    color: gray;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+#sdg-banner img{
+    height: 120px;
+}
+
+#sdg-banner-mobile img{
+    width: 300px;
+}
+
+.info-sdg-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-sdg {
+    margin: 20px;
+}
+
+.info-sdg img {
+    height: 250px;
+    /*border-radius: 50%;*/
+    /*border: 7px solid #fff;*/    
+}
+
+@media (min-width:0px) and (max-width:768px){
+    #sdg-banner{
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    #sdg-banner-mobile{
+        display: none;
+    }
+}
+
+@media (min-width:1024px){
+    #sdg-banner-mobile{
+        display: none;
+    }
+}

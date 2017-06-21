@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/06/2017, 11:52:56 AM
+    Author     : Pilar Chiong Maurici
+*/
+
+footer {
+    background: #333;
+    color: #fff;
+}
+
+footer .contenedor {    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer .contenedor h2 {
+    font-size: 20px;      
+}
+
+footer .contenedor h2 span {
+    font-size: 15px;
+    color: grey;
+}
+
+footer .sociales {    
+    font-size: 28px;  
+}
+
+footer .sociales a {
+    color: #fff;
+    text-decoration: none;
+}
+#madeby {
+    font-size: 15px;
+    color: grey;
+    margin-left: 0px;
+}
+@media (min-width:0px) and (max-width:1024px){
+    #info-foo h2{        
+        margin-bottom: 20px;
+/*        width: 100%;*/
+    }
+    #info-foo div{       
+        margin-bottom: 20px;
+/*        width: 100%;*/
+    }
+    #info-foo {        
+        padding-bottom: 5px;        
+        display: block;
+    }    
+}
+@media (min-width:1024px){
+    #info-foo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }    
+    #madeby{
+       margin-left:8.5%;
+    }
+}

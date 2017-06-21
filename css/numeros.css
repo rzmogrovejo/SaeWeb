@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/06/2017, 12:54:54 AM
+    Author     : Pilar Chiong Maurici
+*/
+
+#numeros {
+    position: relative;    
+}
+
+#numeros parallax2 {
+    width: 100%;
+    height: 100%;
+}
+
+.parallax2 { 
+    /* The image used */
+    background-image: url("..//img/banner-numeros.jpg");
+
+    /* Set a specific height */
+    height: 600px;           
+    
+    background-size: cover;
+    background-position: center;    
+    /* Create the parallax scrolling effect
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;    
+    */
+}
+
+#numeros .contenedor {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    text-align: center;
+    top: 10%;   
+    color: #fff;
+    text-shadow: #333 0.1em 0.1em 0.2em;
+}
+
+#numeros .info-num{
+    display: block;
+}
+
+@media (min-width:0px)and (max-width:480px){
+    #numeros {
+        height: 300px;
+        overflow: hidden;
+    }
+    #numeros .parallax2 {
+        height: 300px;
+    }
+    .numscroller{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #numeros span {
+        font-size: 25px;    
+    }
+    #numeros h2{
+        font-size: 19px;
+    }    
+}
+
+@media (min-width:480px)and (max-width:768px){
+    #numeros {
+        height: 300px;
+        overflow: hidden;
+    }
+    #numeros .parallax2 {
+        height: 300px;
+    }
+    .numscroller{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    #numeros span {
+        font-size: 30px;    
+    }
+    #numeros h2{
+        font-size: 23px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    #numeros {
+        height: 400px;
+        overflow: hidden;
+    }
+    #numeros .parallax2 {
+        height: 400px;
+    }
+    .numscroller{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #numeros span {
+        font-size: 36px;    
+    }
+    #numeros h2{
+        font-size: 27px;
+    }
+}
+
+@media (min-width:1024px){
+    #numeros {
+        height: 500px;
+        overflow: hidden;
+    }
+    #numeros .parallax2 {
+        height: 500px;
+    }
+    .numscroller{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    #numeros span{
+        font-size: 40px;
+    }
+    #numeros h2{
+        font-size: 30px;
+    }
+}

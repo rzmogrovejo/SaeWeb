@@ -1,0 +1,47 @@
+#bienvenidos {    
+    text-align: center;   
+}
+
+#bienvenidos h2{
+    color: #16388e;
+    /*color: #333;*/
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#bienvenidos p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+p a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#info {
+    background: white;
+    color: #16388e;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-sae {
+    margin: 20px;
+}
+
+.info-sae img {
+    height: 250px;
+    margin-bottom: 15px;
+    /*border-radius: 50%;*/
+    /*border: 7px solid #fff;*/    
+}
