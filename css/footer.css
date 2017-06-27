@@ -36,6 +36,12 @@ footer .sociales a {
     color: #fff;
     text-decoration: none;
 }
+
+#info-foo a {
+    color: #fff;
+    text-decoration: none;
+}
+
 #madeby {
     font-size: 15px;
     color: grey;
