@@ -22,7 +22,7 @@ and open the template in the editor.
     background-image: url("..//img/banner-numeros.jpg");
 
     /* Set a specific height */
-    height: 600px;           
+    height: 640px;           
     
     background-size: cover;
     background-position: center;    
@@ -111,11 +111,11 @@ and open the template in the editor.
 
 @media (min-width:1024px){
     #numeros {
-        height: 500px;
+        height: 640px;
         overflow: hidden;
     }
     #numeros .parallax2 {
-        height: 500px;
+        height: 640px;
     }
     .numscroller{
         margin-left: 120px;

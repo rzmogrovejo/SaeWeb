@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/06/2017, 02:12:33 AM
+    Author     : Pilar Chiong Maurici
+*/
+
+#aboutus-banner-img { 
+    /* The image used */
+    background-image: url("..//img/aboutus-banner.jpg");
+
+    /* Set a specific height */
+    height: 590px;           
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;    
+    
+}
+
+#aboutus {
+    text-align: center;
+}
+
+#aboutus h2 {
+    color: #16388e;
+    margin-bottom: 10px;
+}
+
+#aboutus p{
+    color: #333;    
+}
+
+.aboutus-sub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutus-info-1 img {
+    width: 150px;
+}
+
+.aboutus-info-2 img {
+    width: 150px;
+}
+
+.aboutus-info-1 {
+    width: 450px;
+    margin: 15px;
+}
+
+.aboutus-info-2 {
+    width: 250px;
+    margin: 15px;
+}
+
+@media (min-width:0px){
+    #aboutus-banner-img {
+        height: 250px;
+    }
+
+}
+
+@media (min-width:480px){
+    #aboutus-banner-img {
+        height: 370px;
+    }
+}
+
+@media (min-width:768px){
+    #aboutus-banner-img {
+        height: 460px;
+    }
+}
+
+@media (min-width:1024px){
+    #aboutus-banner-img {
+        height: 590px;
+    }
+    
+    .aboutus-info-1 img {
+        width: 200px;
+    }
+}

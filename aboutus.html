@@ -9,28 +9,86 @@ and open the template in the editor.
         <title>SAE</title>
         <meta charset="UTF-8">        
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
-        <link rel="stylesheet" href="css/fontello.css">
-        <link rel="stylesheet" href="css/style.css">
-        <style>
-
-        </style>
+        <link rel="icon" type="image/png" sizes="16x16" href="img/sae-logo-black.png">
+        <link rel="stylesheet" type="text/css" href="css/fontello.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-    <body>
-        <header>
-            <div id="header"></div>
-        </header>
-        <main>
-            <div id="aqui">
-                <div class="contenedor">
-                    <div>Ya me conozco esa historia</div>
-                </div>
+    <body>  
+
+        <div id="header"></div>
+
+        <main>                       
+                   
+            
+             
+            <div id="aboutus-banner" class="section first-section scroll">                
+                <div id="aboutus-banner-img"></div>
             </div>
+            
+
+            <div id="aboutus" class="section">
+                <div class="contenedor">
+                    <div class="aboutus-sub">
+                        <div class="aboutus-info-1 scroll">
+                            <img src="img/weare.png" alt="">
+                            <h2>Who we are</h2>
+                            <p>We are a social enterprise that promotes education and 
+                                development in remote Andean communities through sustainable 
+                                tourism. We develop electrification projects across remote 
+                                areas using tourism programs as a way of financing the 
+                                infrastructure and promoting those villages as tourism 
+                                destinations.</p>
+                        </div>
+                        <div class="aboutus-info-1 scroll">
+                            <img src="img/latinamerica.png" alt="">
+                            <h2>Our Team</h2>
+                            <p>Our team includes different world-class professionals and 
+                                experts in the creation of travelling experiences around 
+                                the globe. In addition, our technical background allow us 
+                                to develop and apply technology for the development of 
+                                remote villages and rural communities in the Andean areas 
+                                of Latin-American.</p>
+                        </div>
+                    </div>
+                    <div class="aboutus-sub">
+                        <div class="aboutus-info-2 scroll">
+                            <img src="img/vision.png" alt="">
+                            <h2>Vision</h2>
+                            <p>To be a global reference in the promotion and application 
+                                of technology for rural development.</p>
+                        </div>
+                        <div class="aboutus-info-2 scroll">
+                            <img src="img/mission.png" alt="">
+                            <h2>Mission</h2>                                                
+                            <p>We generate experiences and projects in benefit of remote 
+                                communities through innovative solutions that use renewable 
+                                technology.</p>
+                        </div>
+                        <div class="aboutus-info-2 scroll">
+                            <img src="img/values.png" alt="">
+                            <h2>Values</h2>
+                            <p>Cultural and Social Sensitivity<br>Leadership in action<br>
+                                Global Vision<br>Customer focus<br>Innovation
+                                </p>
+                        </div>
+                    </div>
+                    
+                </div>                
+            </div>
+
         </main>
-        <footer>
-            <div id="footer"></div>
-        </footer>        
-        <script src="js/jquery.js"></script>        
-        <script src="js/numscroller.js"></script>
-        <script src="js/heafoo.js"></script>
+        
+        <div id="footer"></div>
+        
+        <script type="text/javascript" src="js/jquery.js"></script>        
+        <script type="text/javascript" src="js/numscroller.js"></script>
+        <script type="text/javascript" src="js/heafoo.js"></script>
+        <script type="text/javascript" src="js/wowslider.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script>
+            window.sr = ScrollReveal();
+            sr.reveal('.scroll');
+        </script>
     </body>
 </html>
