@@ -23,6 +23,19 @@ and open the template in the editor.
     margin-bottom: 5px;
 }
 
+#sdg h3{
+    color: gray;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+#sdg a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
 #sdg-banner img{
     height: 120px;
 }

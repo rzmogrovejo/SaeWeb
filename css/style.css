@@ -10,6 +10,9 @@
 @import url('slide.css');
 @import url('form.css');
 @import url('aboutus.css');
+@import url('ourvillages.css');
+@import url('ourimpact.css');
+@import url('saexperience.css');
 
 * {
     margin: 0;
@@ -40,7 +43,23 @@ h1 {
 }
 
 .scroll {
-    
+    /*It was defined just for fun*/
+}
+
+.colorSae h1{
+    color:#16388e;
+}
+
+.colorSae h2{
+    color:#16388e;
+}
+
+.colorSae h3{
+    color:#16388e;
+}
+
+.colorSae p{
+    color:#333;
 }
 
 @media (min-width:1024px){

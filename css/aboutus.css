@@ -8,23 +8,6 @@ and open the template in the editor.
     Author     : Pilar Chiong Maurici
 */
 
-#aboutus-banner-img { 
-    /* The image used */
-    background-image: url("..//img/aboutus-banner.jpg");
-
-    /* Set a specific height */
-    height: 590px;           
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;    
-    
-}
-
 #aboutus {
     text-align: center;
 }
@@ -62,30 +45,7 @@ and open the template in the editor.
     margin: 15px;
 }
 
-@media (min-width:0px){
-    #aboutus-banner-img {
-        height: 250px;
-    }
-
-}
-
-@media (min-width:480px){
-    #aboutus-banner-img {
-        height: 370px;
-    }
-}
-
-@media (min-width:768px){
-    #aboutus-banner-img {
-        height: 460px;
-    }
-}
-
-@media (min-width:1024px){
-    #aboutus-banner-img {
-        height: 590px;
-    }
-    
+@media (min-width:1024px){ 
     .aboutus-info-1 img {
         width: 200px;
     }

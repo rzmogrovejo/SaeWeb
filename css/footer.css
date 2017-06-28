@@ -32,14 +32,18 @@ footer .sociales {
     font-size: 28px;  
 }
 
+footer .sociales strong{
+    font-size: 15px;
+}
+
 footer .sociales a {
     color: #fff;
     text-decoration: none;
 }
 
 #info-foo a {
-    color: #fff;
-    text-decoration: none;
+    color: #fff !important;
+    text-decoration: none !important;
 }
 
 #madeby {
