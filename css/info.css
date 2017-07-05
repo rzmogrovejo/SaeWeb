@@ -1,19 +1,34 @@
-#bienvenidos {    
-    text-align: center;   
-}
-
 #bienvenidos h2{
     color: #16388e;
     /*color: #333;*/
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+    
+.bienvenidos-info {
+    display: table;
+    flex-wrap: wrap;
+    justify-content: center;    
 }
 
-#bienvenidos p{
+.bienvenidos-info-parag {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: justify;    
+}
+
+.bienvenidos-info p{
     font-size: 18px;
     margin-bottom: 10px;
     color: #333;
+    margin-right: 30px;
+}
+
+.bienvenidos-info img {
+    width: 250px;
+    float: left;
 }
 
 p a{
@@ -50,4 +65,23 @@ p a{
 .info-sae a {
     text-decoration: none;
     color: #16388e;
+}
+
+@media (min-width:0px) and (max-width:768px){
+    .bienvenidos-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .bienvenidos-info-parag {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .bienvenidos-info p {
+        margin-right: 0px;
+    }
 }
