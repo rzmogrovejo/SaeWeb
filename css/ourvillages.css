@@ -17,6 +17,7 @@ and open the template in the editor.
 .ourvillages-info {
     margin: 20px;
     text-align: justify;
+    display: table;
 }
 
 .ourvillages-info h3 {
@@ -29,3 +30,23 @@ and open the template in the editor.
     font-weight: normal;
     text-decoration: underline;
 }
+
+.ourvillages-info img {
+    float: left;
+    width: 300px;
+    margin: 15px;
+}
+
+.ourvillages-info-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media (min-width:0px) and (max-width:768px){
+    .ourvillages-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}  

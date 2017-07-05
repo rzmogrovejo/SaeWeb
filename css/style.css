@@ -46,15 +46,7 @@ h1 {
     /*It was defined just for fun*/
 }
 
-.colorSae h1{
-    color:#16388e;
-}
-
-.colorSae h2{
-    color:#16388e;
-}
-
-.colorSae h3{
+.colorSae h1, .colorSae h2, .colorSae h3{
     color:#16388e;
 }
 
