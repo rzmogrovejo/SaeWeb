@@ -180,7 +180,12 @@ ns40.domaincontrol.com	paul.ns.cloudflare.com
         </main> 
          
         <div id="footer"></div>
-        
+        <script>
+            var loc = window.location.href+'';
+            if (loc.indexOf('http://')==0){
+                window.location.href = loc.replace('http://','https://');
+            }
+        </script>
         <script type="text/javascript" src="js/jquery.js"></script>        
         <script type="text/javascript" src="js/numscroller.js"></script>
         <script type="text/javascript" src="js/heafoo.js"></script>
