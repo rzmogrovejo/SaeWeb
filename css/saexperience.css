@@ -50,3 +50,17 @@ and open the template in the editor.
     font-weight: normal;
     text-decoration: underline;
 }
+#img-current-experience{
+    width: 100%;
+    height: auto;
+}
+#div-go-to-contactus{
+    text-align: center;
+    margin-top: 20px;
+}
+#go-to-contactus{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #C30101;
+}
