@@ -1,7 +1,7 @@
 <footer>
     <div class="contenedor">
         <div id="info-foo">
-            <h2 class="icon-sae-logo">Social Andean Expedition<br><span>&copy; Copyright 2017</span></h2>                
+            <h2 class="icon-sae-logo">Social Andean Expedition<br><span>&copy; Copyright <span id="year"></span></span></h2>                
             <div><strong>
                     Contact-us:
                 </strong><br>
@@ -19,3 +19,6 @@
         </div>
     </div>
 </footer>
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
